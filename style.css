@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+:root{
+    --primary-color: #884497;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+textarea{
+    width:40%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#output{
+    border: 1px solid black;
+    width:40%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #ffffff;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    align-items: baseline;
+}
+
+.btn{  
+    text-align: center;  
+    margin: auto;
+    }  
+
+#btnTranslate{  
+    font-size: 25px;  
+    }  
+
+#outputText{
+    font-size: larger;
+    text-align: center;
+    margin: auto;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
